@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/catimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/categoriestrial"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Locations"
+            android:textColor="#FFFFFF"
+            android:background="#55000000"
+            android:textAlignment="center"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:padding="5dp"
+            tools:ignore="RtlCompat"
+            android:textSize="18sp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
